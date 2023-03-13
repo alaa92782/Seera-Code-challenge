@@ -1,0 +1,26 @@
+{
+  "leg": [
+    {
+      "originId": "AMM",
+      "destinationId": "DXB",
+      "departureFrom": "2021-06-02",
+      "departureTo": "2021-06-08"
+    },
+    {
+      "originId": "DXB",
+      "destinationId": "AMM",
+      "departureFrom": "2021-06-04",
+      "departureTo": "2021-06-10"
+    }
+  ],
+  "cabin": "Economy",
+  "pax": {
+    "adult": 2,
+    "child": 0,
+    "infant": 0
+  },
+  "stops": [],
+  "airline": [],
+  "timeSlots": {},
+  "airports": {}
+}
