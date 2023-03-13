@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "2023-06-04_2023-06-08"
+  ],
+  "2023-06-04_2023-06-08": {
+    "$id": "#root/2023-06-04_2023-06-08",
+    "title": "2023-06-04_2023-06-08",
+    "type": "object",
+    "required": [
+      "price",
+      "updatedAt"
+    ],
+    "properties": {
+      "price": {
+        "type": "double"
+      },
+      "updatedAt": {
+        "type": "string"
+      }
+    }
+  }
+}

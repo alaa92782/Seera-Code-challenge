@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "atgHotelId": {
+      "type": "integer"
+    },
+    "hotel": {
+      "hotelNameAr": {
+        "type": "string"
+      },
+      "hotelNameEn": {
+        "type": "string"
+      },
+      "starRating": {
+        "type": "integer"
+      },
+      "thumbnailUrl": {
+        "type": "string"
+      },
+      "rank": {
+        "type": "integer"
+      },
+      "phone": {
+        "type": "string"
+      },
+      "fax": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "floors": {
+        "type": "integer"
+      },
+      "checkinBeginTime": {
+        "type": "time"
+      },
+      "checkoutTime": {
+        "type": "time"
+      },
+      "brand": {
+        "type": "integer"
+      },
+      "chain": {
+        "type": "integer"
+      },
+      "propertyTypeId": {
+        "type": "integer"
+      },
+      "location": {
+        "type": "object"
+      }
+    },
+    "facilityCategories": {
+      "type": "array"
+    },
+    "policies": {
+      "type": "array"
+    },
+    "descriptions": {
+      "type": "array"
+    },
+    "imageCategories": {
+      "type": "array"
+    },
+    "topPick": {
+      "type": "object"
+    }
+  }
+}
